@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Upload The File</title>
+  <link rel="stylesheet" href="/upload.css">
+</head>
+<body>
+  <div class="container">
+    <h2 class="h2">Image Upload</h2>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <label id="c" for="image">Select File:</label>
+      <input type="file" id="image" name="image" accept="image/*" required>
+      <button class="button" type="button" onclick="uploadImage()">Upload</button>
+    </form>
+  </div>
+  <script src="/upload-script.js"></script>
+</body>
+</html>
